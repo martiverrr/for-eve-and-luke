@@ -5,7 +5,7 @@ anime({
     translateX: [
         { value: -100, duration: 1000 },
         { value: 100, duration: 1000 },
-        { value: 0, duration: 1000 }
+        { value: 5, duration: 1000 }
     ],
     loop: true,
     easing: 'easeInOutQuad'
@@ -14,7 +14,7 @@ anime({
 anime({
     targets: '.tulips',
     opacity: [
-        { value: 0, duration: 0 },
+        { value: 0, duration: 5 },
         { value: 1, duration: 1000 }
     ],
     translateY: [
